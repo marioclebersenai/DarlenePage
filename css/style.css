@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light-color: #fffffa;
+  --orange-color: #ff7200;
+  --green-color: #01847f;
+  --light-green-color: #44a1a0;
+  --dark-green-color: #07393c;
+  --dark-color: #021718;
+}
+
+body {
+  background-image: url('/img/bkg-shape.svg');
+  background-color: #f5a05c;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+nav {
+  height: 96px;
+  background-color: var(--light-color);
+  display: flex;
+  padding: 0 120px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins';
+  color: var(--dark-color);
+}
+
+nav .logo {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+nav .menu-itens {
+  gap: 100px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+nav .menu-itens .link-item {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  margin-top: 228px;
+  margin-left: 120px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.containt {
+  width: 425px;
+}
+.container .containt h1 {
+  font-weight: 900;
+  font-size: 64px;
+  color: var(--dark-color);
+}
+
+.container .containt h3 {
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--dark-color);
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.container .containt .btn {
+  display: block;
+  width: 196px;
+  height: 60px;
+  background-color: var(--green-color);
+  font-weight: 400;
+  font-size: 24px;
+  text-decoration: none;
+  color: var(--light-color);
+  text-align: center;
+  padding-top: 14px;
+  margin-bottom: 180px;
+}
+
+.container .containt .social-icons {
+  gap: 42px;
+  align-items: center;
+}
+
+.img-darlene {
+  position: absolute;
+  right: 124px;
+  top: 200px;
+  filter: drop-shadow(0px 24px 48px rgba(0, 0, 0, 0.5));
+}
+
+.img-darlene:hover {
+  transform: rotate(-5.47deg);
+}
+
+.box-bkg {
+  position: absolute;
+  right: 172px;
+  top: 224px;
+  background-color: var(--light-green-color);
+  transform: rotate(-5.47deg);
+  width: 500px;
+  height: 500px;
+}
